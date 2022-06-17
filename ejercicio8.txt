@@ -1,0 +1,21 @@
+1)Crea la variable numeroSecreto. Ese número deberá ser igual a un entero;
+2)Pregúntale cual es el número secreto;
+3)Mostrale un mensaje que le indique al usuario si adivinó o no, el número secreto;
+4)Indícale al usuario si el numero ingresado es mayor o menor que el número secreto;
+
+MI SOLUCION
+let numIngUsuario = parseInt(prompt("Ingrese el numero secreto"))
+let numSecreto = 10
+
+if(numIngUsuario===numSecreto){
+  alert(" Adivinaste, puedes pasar")
+
+} else if (numIngUsuario<numSecreto){
+alert( "El numero ingresado no es valido")
+
+} else if (numIngUsuario>numSecreto){
+  alert("el numero ingresado es mayor")
+
+} else{
+   alert("El numero ingresado es menor")
+}
