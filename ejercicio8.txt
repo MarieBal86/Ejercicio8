@@ -1,3 +1,6 @@
+Este es un ejercicio que no me sale el 100%. Se me mezcla el orden.
+No se ejecuta tal como indica la consigna
+
 1)Crea la variable numeroSecreto. Ese número deberá ser igual a un entero;
 2)Pregúntale cual es el número secreto;
 3)Mostrale un mensaje que le indique al usuario si adivinó o no, el número secreto;
